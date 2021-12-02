@@ -1,0 +1,73 @@
+/* 
+   XXXX background color hero & footer: #1f2937 
+   XXXX hero main text 48px extra-bold #F9FAF8
+hero 2nd txt, header link txt: 18px, #e5e7eb
+   XXXX header logo txt: 24px #f9faf8
+button color: #3882f6
+info header txt: 36px extra-bold #1f2937
+quote section background: #e5e7eb
+quote txt: 36px light italic #1f2937
+*/
+
+body {
+  /* padding: 0 84px; */
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px #e5e7eb;
+  padding: 0 84px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo-heading {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+}
+
+/* HERO */
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 84px;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-txt,
+.nav-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-img {
+  width: 500px;
+}
+
+.hero-img {
+  width: 500px;
+}
+
+.card-img {
+  width: 200px;
+}
+
+.footer {
+  background-color: #1f2937;
+}
