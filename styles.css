@@ -5,8 +5,8 @@
    XXXX header logo txt: 24px #f9faf8
    XXXX button color: #3882f6
    XXXX info header txt: 36px extra-bold #1f2937
-quote section background: #e5e7eb
-quote txt: 36px light italic #1f2937
+   XXXX quote section background: #e5e7eb
+   XXXX quote txt: 36px light italic #1f2937
 */
 
 body {
@@ -94,7 +94,6 @@ ul {
   padding: 0 150px 120px 150px;
 }
 
-/* info header txt: 36px extra-bold #1f2937 */
 .info-heading {
   font-size: 36px;
   font-weight: 900;
@@ -131,6 +130,32 @@ ul {
 }
 
 /* QUOTE */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px 150px;
+}
+
+.quote-txt {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+  /* padding: 0 20px; */
+}
+
+.quote-author {
+  text-align: end;
+  /* margin: 0; */
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* quote section background: #e5e7eb
+quote txt: 36px light italic #1f2937 */
+
+/* Footer */
 
 .footer {
   background-color: #1f2937;
