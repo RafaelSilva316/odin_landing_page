@@ -1,10 +1,10 @@
 /* 
    XXXX background color hero & footer: #1f2937 
    XXXX hero main text 48px extra-bold #F9FAF8
-hero 2nd txt, header link txt: 18px, #e5e7eb
+   XXXX hero 2nd txt, header link txt: 18px, #e5e7eb
    XXXX header logo txt: 24px #f9faf8
-button color: #3882f6
-info header txt: 36px extra-bold #1f2937
+   XXXX button color: #3882f6
+   XXXX info header txt: 36px extra-bold #1f2937
 quote section background: #e5e7eb
 quote txt: 36px light italic #1f2937
 */
@@ -12,13 +12,15 @@ quote txt: 36px light italic #1f2937
 body {
   /* padding: 0 84px; */
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  border: solid 1px #e5e7eb;
+  /* border: solid 1px #e5e7eb; */
   padding: 0 84px;
 }
 
@@ -35,6 +37,13 @@ ul {
 .links {
   display: flex;
   gap: 24px;
+  align-items: center;
+}
+
+.hero-txt,
+.nav-link {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 /* HERO */
@@ -44,29 +53,84 @@ ul {
   padding: 84px;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 48px;
+}
+
 .hero-heading {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  margin: 0;
 }
 
-.hero-txt,
-.nav-link {
-  font-size: 18px;
-  color: #e5e7eb;
+.btn-cta {
+  background-color: #3882f6;
+  border: none;
+  color: #fff;
+  margin-right: auto;
+  padding: 8px 36px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.hero-img {
+  height: 350px;
 }
 
 .hero-img {
   width: 500px;
 }
 
-.hero-img {
-  width: 500px;
+/* INFO */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px 120px 150px;
+}
+
+/* info header txt: 36px extra-bold #1f2937 */
+.info-heading {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding: 48px 0;
+}
+
+.illustrations {
+  flex-grow: 1;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card-img-box {
+  overflow: hidden;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-img {
-  width: 200px;
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
 }
+
+.card-description {
+  text-align: center;
+}
+
+/* QUOTE */
 
 .footer {
   background-color: #1f2937;
